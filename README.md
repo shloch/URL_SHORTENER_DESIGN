@@ -1,7 +1,7 @@
-<h1 align="center">Twitter-design-clone</h1>
+<h1 align="center">URL SHORTENER DESIGN</h1>
 <p>
             Design by <br />
-            @shloch and @belle_agbor  <br />
+            @shloch <br />
             <a href="https://twitter.com/shloch" target="_blank">
                 <img alt="Twitter: @shloch" src="https://img.shields.io/twitter/follow/shloch.svg?style=social" />
             </a> 
@@ -22,4 +22,4 @@ Designing a URL shortener to be used into a backend project
 ## Screenshot
 
 ### on PC 
-![alt text](https://github.com/shloch/Twitter-design-clone/blob/dev/screenshots/desktop/screenshot_1.png)
+![alt text](https://github.com/shloch/URL_SHORTENER_DESIGN/blob/dev/assets/images/screenshot.png)
