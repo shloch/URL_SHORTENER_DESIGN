@@ -1,19 +1,22 @@
+@import url("https://fonts.googleapis.com/css?family=Ma+Shan+Zheng|Quicksand&display=swap");
 body {
-  color: black; }
+  color: black;
+  font-family: 'Quicksand', sans-serif; }
 
 section[id="main"] {
-  border: 1px solid brown;
   width: 70%;
   margin: auto;
   min-height: 500px; }
   section[id="main"] h1[id="main-heading"] {
+    font-family: 'Ma Shan Zheng', cursive;
+    font-size: 4em;
     margin-top: 2.8%;
     text-align: center; }
   section[id="main"] div[id="main-form"] {
     width: 90%;
     margin: auto;
-    border: 1px solid orange;
-    margin-top: 10%; }
+    margin-top: 10%;
+    font-size: 1.4em; }
     section[id="main"] div[id="main-form"] form input {
       width: 75%;
       height: 55px;
@@ -22,6 +25,8 @@ section[id="main"] {
       -moz-border-radius: 8px;
       -ms-border-radius: 8px;
       border-radius: 8px; }
+    section[id="main"] div[id="main-form"] form input:focus {
+      border: 1px solid orange; }
     section[id="main"] div[id="main-form"] form button {
       width: 20%;
       margin: auto;
@@ -29,18 +34,40 @@ section[id="main"] {
       -webkit-border-radius: 8px;
       -moz-border-radius: 8px;
       -ms-border-radius: 8px;
-      border-radius: 8px; }
+      border-radius: 8px;
+      background-color: orange;
+      color: white; }
+    section[id="main"] div[id="main-form"] form button:hover {
+      background-color: orchid;
+      color: white; }
 
 div[id="former-shorts"] {
   width: 90%;
   margin: auto;
   margin-top: 5%;
-  border: lightslategray solid 1px; }
+  border: lightslategray solid 1px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  border-radius: 8px;
+  font-size: 0.89em;
+  color: #3d3d3d; }
   div[id="former-shorts"] div[class="url-row"] {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     height: 50px;
-    border-bottom: 1px solid orange; }
+    border-bottom: 1px solid lightslategray;
+    border-bottom-width: thin; }
+    div[id="former-shorts"] div[class="url-row"] div[class*="url-row-"] {
+      padding-top: 2%; }
+      div[id="former-shorts"] div[class="url-row"] div[class*="url-row-"] button {
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        border-radius: 4px; }
+      div[id="former-shorts"] div[class="url-row"] div[class*="url-row-"] button:hover {
+        background-color: orange;
+        color: white; }
 
 /*# sourceMappingURL=design.css.map */

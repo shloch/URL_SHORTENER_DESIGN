@@ -1,15 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Ma+Shan+Zheng|Quicksand&display=swap');
+
 body {
   color: black;
+  font-family: 'Quicksand', sans-serif;
 }
+
 
 @import 'mixins';
 
 section[id="main"] {
-  border: 1px solid brown;
   width: 70%;
   margin: auto;
   min-height: 500px;
   h1[id="main-heading"] {
+    font-family: 'Ma Shan Zheng', cursive;
+    font-size: 4em;
     margin-top: 2.8%;
     text-align: center;
   }
@@ -17,8 +22,8 @@ section[id="main"] {
   div[id="main-form"] {
     width: 90%;
     margin: auto;
-    border: 1px solid orange;
     margin-top: 10%;
+    font-size: 1.4em;
     form {
       input {
         width: 75%;
@@ -26,12 +31,21 @@ section[id="main"] {
         padding-left: 5%;
         @include round-border2(8px);
       }
+      input:focus {
+        border:1px solid orange;
+      }
       button {
         width: 20%;
         margin: auto;
         height: 55px;
         @include round-border2(8px);
-      }     
+        background-color: orange;
+        color: white;
+      } 
+      button:hover {
+        background-color: orchid;
+        color: white;
+      }    
     }
   }
 }
@@ -41,12 +55,26 @@ div[id="former-shorts"] {
   margin: auto;
   margin-top: 5%;
   border: lightslategray solid 1px;
+  @include round-border2(8px);
+  font-size: 0.89em;
+  color: rgb(61, 61, 61);
   div[class="url-row"] {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     height: 50px;
-    border-bottom: 1px solid orange;
+    border-bottom:1px solid lightslategray;
+    border-bottom-width: thin;
+    div[class*="url-row-"] {
+      padding-top: 2%;
+      button {
+        @include round-border2(4px);
+      }
+      button:hover {
+        background-color: orange;
+        color: white;
+      }
+    } 
   }
   
 }
