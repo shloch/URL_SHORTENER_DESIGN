@@ -1,0 +1,52 @@
+body {
+  color: black;
+}
+
+@import 'mixins';
+
+section[id="main"] {
+  border: 1px solid brown;
+  width: 70%;
+  margin: auto;
+  min-height: 500px;
+  h1[id="main-heading"] {
+    margin-top: 2.8%;
+    text-align: center;
+  }
+
+  div[id="main-form"] {
+    width: 90%;
+    margin: auto;
+    border: 1px solid orange;
+    margin-top: 10%;
+    form {
+      input {
+        width: 75%;
+        height: 55px;
+        padding-left: 5%;
+        @include round-border2(8px);
+      }
+      button {
+        width: 20%;
+        margin: auto;
+        height: 55px;
+        @include round-border2(8px);
+      }     
+    }
+  }
+}
+
+div[id="former-shorts"] {
+  width: 90%;
+  margin: auto;
+  margin-top: 5%;
+  border: lightslategray solid 1px;
+  div[class="url-row"] {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 50px;
+    border-bottom: 1px solid orange;
+  }
+  
+}

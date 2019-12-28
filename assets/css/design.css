@@ -1,0 +1,46 @@
+body {
+  color: black; }
+
+section[id="main"] {
+  border: 1px solid brown;
+  width: 70%;
+  margin: auto;
+  min-height: 500px; }
+  section[id="main"] h1[id="main-heading"] {
+    margin-top: 2.8%;
+    text-align: center; }
+  section[id="main"] div[id="main-form"] {
+    width: 90%;
+    margin: auto;
+    border: 1px solid orange;
+    margin-top: 10%; }
+    section[id="main"] div[id="main-form"] form input {
+      width: 75%;
+      height: 55px;
+      padding-left: 5%;
+      -webkit-border-radius: 8px;
+      -moz-border-radius: 8px;
+      -ms-border-radius: 8px;
+      border-radius: 8px; }
+    section[id="main"] div[id="main-form"] form button {
+      width: 20%;
+      margin: auto;
+      height: 55px;
+      -webkit-border-radius: 8px;
+      -moz-border-radius: 8px;
+      -ms-border-radius: 8px;
+      border-radius: 8px; }
+
+div[id="former-shorts"] {
+  width: 90%;
+  margin: auto;
+  margin-top: 5%;
+  border: lightslategray solid 1px; }
+  div[id="former-shorts"] div[class="url-row"] {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 50px;
+    border-bottom: 1px solid orange; }
+
+/*# sourceMappingURL=design.css.map */
