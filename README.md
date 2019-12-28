@@ -15,8 +15,7 @@ Designing a URL shortener to be used into a backend project
 ### Technologies
 
 - HTML
-- CSS/SASS/
-- JAVASCRIPT
+- CSS/SASS
 
 
 ## Screenshot
